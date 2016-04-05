@@ -256,7 +256,7 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {95822747},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V3
@@ -270,8 +270,9 @@ function create_config( )
     Arman
     IM/-\N
     Creed Is Dead
+    sevenadmin
     
-    Powered By @Sbss_Team
+    Powered By @sevenchanell
     
     #Open Source
     https://github.com/SbssTeam/Sbss
