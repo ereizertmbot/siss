@@ -259,11 +259,11 @@ function create_config( )
     sudo_users = {95822747},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V3
+    about_text = [[SeVeN Bot V3
     An Advanced Anti Spam Bot Forked On TeleSeed
     
     Develpoed By:
-    @Mr_Ah_S
+    @sevenadmin
     
     Special Thanks To:
     Mehr Pouya
@@ -274,8 +274,8 @@ function create_config( )
     
     Powered By @sevenchanell
     
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    
+    
 ]],
     help_text_realm = [[
 See Patterns In Github
@@ -430,7 +430,7 @@ ____________
 Send /share to get robot number
 ____________
 You can use [ ! , / or # ]or don’t use them
-More Details on @Sbss_Team
+More Details on @SeVeNchanell
 ]]
   }
   serialize_to_file(config, './data/config.lua')
