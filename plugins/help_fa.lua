@@ -1,6 +1,7 @@
-local function run(msg, matches)
-if matches[1] == 'راهنما' or matches[1]:lower() == 'help fa' and is_momod(msg) then
-return [[
+do
+ function run(msg, matches)
+if is_momod(msg) then
+return [[ 
 
 دستورات فارسی ربات:
 
@@ -72,6 +73,8 @@ return [[
 لیست فیلتر
 لیست کلمات فیلتر شده
 ]]
+end
+end
 return {
 patterns = {
 "^(راهنما)$",
